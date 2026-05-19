@@ -23,6 +23,10 @@ dependencies = [
     # PySAML2's new XMLSecurity crypto back end requires
     # pyXMLSecurity.  Note that it only supports XML-DSIG.
     "pyxmlsecurity",
+    "flask", 
+    # flask is a web server framework needed.
+    "gunicorn",
+    # a tool used in docker to server the framework.
 ]
 
 [project.optional-dependencies]

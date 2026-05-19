@@ -1,0 +1,13 @@
+services:
+  sp:
+    build:
+      context: .
+      dockerfile: Dockerfile.sp
+    
+
+  idp:
+    build:
+      context: .
+      dockerfile: Dockerfile.idp
+    
+    
